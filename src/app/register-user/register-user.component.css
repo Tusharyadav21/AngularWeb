@@ -1,0 +1,41 @@
+.login-page {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  mat-card {
+    width: 25%;
+    height: 50%;
+    margin: 10% auto;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+  }
+  mat-form-field, mat-checkbox {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  mat-card-content {
+    margin-top: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  
